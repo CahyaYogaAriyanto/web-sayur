@@ -1,0 +1,58 @@
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+.conten{
+    display: flex;
+    height: auto;
+    margin-inline-end : 10px;
+    overflow: hidden;
+    
+    
+}
+p{
+    margin-top: 80px;
+    text-align: justify; 
+    line-height: 1.5; 
+    margin: 0; 
+    padding: 0; 
+}
+.text{
+    margin-bottom: 10px;
+    width: 100%; /* Pastikan teks menggunakan lebar penuh kontainer */
+    max-width: 600px; /* Atur batas maksimum lebar */
+    margin-left: auto; /* Pusatkan dengan auto */
+    margin-right: auto; /* Pusatkan dengan auto */
+    padding-left: 20px; /* Gunakan padding untuk memberi ruang */
+    padding-right: 20px; /* Gunakan padding untuk memberi ruang */
+    box-sizing: border-box;
+}
+@media (max-width: 750px) {
+    .conten {
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        height: auto; /* Ubah menjadi auto agar tinggi fleksibel */
+        margin: 0; /* Hapus margin untuk kontainer */
+        padding: 10px; /* Tambahkan padding untuk ruang */
+        overflow: visible; /* Pastikan konten bisa terlihat */
+    }
+
+    .text {
+        margin-bottom: 10px;
+        width: 100%; 
+        max-width: 420px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        padding-left: 20px; 
+        padding-right: 20px; 
+        box-sizing: border-box; 
+    }
+
+    .slider {
+        width: 100%; /* Pastikan slider menggunakan lebar penuh */
+    }
+}
+
+

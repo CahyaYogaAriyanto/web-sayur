@@ -1,0 +1,86 @@
+.menu-pembelian {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-product {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    margin-right: 500px;
+}
+
+.tap-button {
+    margin-top: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.count{
+    color: #101010;
+    background-color: #f0f1f3;
+    width: 50px;
+    border: 1px solid ;
+    margin: 5px;
+}
+
+.tap-button.selected {
+    background-color: #0056b3; /* Warna untuk tombol terpilih */
+}
+
+.product {
+    margin: 20px 0;
+}
+
+.cart {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #051639;
+    border-radius: 5px;
+    
+}
+label{
+    color: white;
+    margin: 10px;
+    padding: 3px;
+}
+input{
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: #101010;
+}
+.cart-count{
+    color:black;
+}
+input > alamat{
+    height: 50px;
+}
+@media (max-width: 900px) {
+    .menu-pembelian {
+        flex-direction: row; 
+        justify-content: space-around; 
+    }
+    .customer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Memberi jarak antar elemen */
+    }
+    
+    .customer-info label {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+    }
+    
+
+    .cart {
+        width: 50%;
+    }
+}
